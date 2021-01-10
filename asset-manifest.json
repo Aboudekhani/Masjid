@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/Masjid/static/css/main.f5d4be45.chunk.css",
-    "main.js": "/Masjid/static/js/main.ced1f74d.chunk.js",
-    "main.js.map": "/Masjid/static/js/main.ced1f74d.chunk.js.map",
-    "runtime-main.js": "/Masjid/static/js/runtime-main.387ca4ae.js",
-    "runtime-main.js.map": "/Masjid/static/js/runtime-main.387ca4ae.js.map",
+    "main.js": "/Masjid/static/js/main.dd4b08c6.chunk.js",
+    "main.js.map": "/Masjid/static/js/main.dd4b08c6.chunk.js.map",
+    "runtime-main.js": "/Masjid/static/js/runtime-main.e0a12b59.js",
+    "runtime-main.js.map": "/Masjid/static/js/runtime-main.e0a12b59.js.map",
     "static/css/2.9648bd54.chunk.css": "/Masjid/static/css/2.9648bd54.chunk.css",
-    "static/js/2.e25dd13a.chunk.js": "/Masjid/static/js/2.e25dd13a.chunk.js",
-    "static/js/2.e25dd13a.chunk.js.map": "/Masjid/static/js/2.e25dd13a.chunk.js.map",
-    "static/js/3.f3a1d3dc.chunk.js": "/Masjid/static/js/3.f3a1d3dc.chunk.js",
-    "static/js/3.f3a1d3dc.chunk.js.map": "/Masjid/static/js/3.f3a1d3dc.chunk.js.map",
+    "static/js/2.a62a1ded.chunk.js": "/Masjid/static/js/2.a62a1ded.chunk.js",
+    "static/js/2.a62a1ded.chunk.js.map": "/Masjid/static/js/2.a62a1ded.chunk.js.map",
+    "static/js/3.fc3e9315.chunk.js": "/Masjid/static/js/3.fc3e9315.chunk.js",
+    "static/js/3.fc3e9315.chunk.js.map": "/Masjid/static/js/3.fc3e9315.chunk.js.map",
     "index.html": "/Masjid/index.html",
     "static/css/2.9648bd54.chunk.css.map": "/Masjid/static/css/2.9648bd54.chunk.css.map",
     "static/css/main.f5d4be45.chunk.css.map": "/Masjid/static/css/main.f5d4be45.chunk.css.map",
-    "static/js/2.e25dd13a.chunk.js.LICENSE.txt": "/Masjid/static/js/2.e25dd13a.chunk.js.LICENSE.txt",
+    "static/js/2.a62a1ded.chunk.js.LICENSE.txt": "/Masjid/static/js/2.a62a1ded.chunk.js.LICENSE.txt",
     "static/media/font-awesome.less": "/Masjid/static/media/font-awesome.ab44c36e.less",
     "static/media/logo.3fb66c44.png": "/Masjid/static/media/logo.3fb66c44.png",
     "static/media/slider-bg.3c5fad6c.png": "/Masjid/static/media/slider-bg.3c5fad6c.png",
     "static/media/thuluth-benterkia.f5c7f7b8.jpg": "/Masjid/static/media/thuluth-benterkia.f5c7f7b8.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.387ca4ae.js",
+    "static/js/runtime-main.e0a12b59.js",
     "static/css/2.9648bd54.chunk.css",
-    "static/js/2.e25dd13a.chunk.js",
+    "static/js/2.a62a1ded.chunk.js",
     "static/css/main.f5d4be45.chunk.css",
-    "static/js/main.ced1f74d.chunk.js"
+    "static/js/main.dd4b08c6.chunk.js"
   ]
 }
