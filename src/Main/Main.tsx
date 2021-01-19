@@ -1,6 +1,5 @@
 import React from "react"
 import { Row, Col, Container, Button, ListGroup, Navbar,Nav,NavDropdown } from "react-bootstrap"
-import thuluth from "C:/Users/hp/Documents/MassjidApp/my-app/src/thuluth-benterkia.jpg"
 import Carousel from 'react-bootstrap/Carousel'
 import slider from "C:/Users/hp/Documents/MassjidApp/my-app/src/Main/slider-bg.png"
 import Card from 'react-bootstrap/Card'
@@ -11,48 +10,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {fab , faInstagramSquare as instagram} from'@fortawesome/free-brands-svg-icons';
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fas } from "@fortawesome/free-solid-svg-icons"
-import logo from "C:/Users/hp/Documents/MassjidApp/my-app/src/logo.png"
-
+import Map from "../Map/Map"
 library.add(fab,fas,instagram)
 function Main() {
     return (
         <div>
-              <Navbar collapseOnSelect expand='lg' bg='light' variant= 'light' fixed="top">
-                <Navbar.Brand href="#home">
-                    <img src={String(logo)} alt=" " width={50} ></img>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="mr-auto">
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#Islam">Islam</Nav.Link>
-                            <Nav.Link href="#News">News</Nav.Link>
-                            <Nav.Link href="#pricing">Bogota's Muslims</Nav.Link>
-                            <Nav.Link href="#pricing">Links</Nav.Link>   
-                            <Nav.Link href="#ContactUs">Contact Us</Nav.Link>  
-                        </Nav>
-                        <Nav>
-                        <NavDropdown title="Languages" id="collasible-nav-dropdown">
-                                <NavDropdown.Item href="#action/3.1">Arabic</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.2">Spanich</NavDropdown.Item>
-                                <NavDropdown.Item href="#action/3.3">Englis</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                            </NavDropdown>
-                        </Nav>
-                    </Navbar.Collapse>
-            </Navbar>
-            
-
-           
-            <section id="Home">
-                <Row>
-
-                    <Col md={12}>
-                        <img src={String(thuluth)} alt=" " width={"100%"} ></img>
-                    </Col>
-                </Row>
-
-            </section>
+             
+          <Container>
             <section id="Islam" >
                 <Carousel>
 
@@ -101,7 +65,7 @@ function Main() {
                         </Col>
                         <Col md={4}>
                             <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src={String(masjidIcon)} />
+                                <Card.Img variant="bottom" src={String(masjidIcon)} />
                                 <Card.Body>
                                     <Card.Title>News 2 </Card.Title>
                                     <Card.Text>
@@ -114,21 +78,58 @@ function Main() {
 
                         </Col>
                         <Col md={4}>
-                            <Card style={{ width: '18rem' }}>
-                                <Card.Img variant="top" src={String(masjidIcon)} />
-                                <Card.Body>
-                                    <Card.Title>News 3</Card.Title>
-                                    <Card.Text>
+                       
+                                    <div className="e-card" id="basic_card" >
+                                        <div className="e-card-header">
+                                            <div className="e-card-header-caption">
+                                                <div className="e-card-title">Debunking Five Data Science Myths</div>
+                                                <div className="e-card-sub-title">By John Doe | Jan 20, 2018 </div>
+                                            </div>
+                                        </div>
+                                        <div className="e-card-content">
                                         Some quick example text to build on the card title and make up the bulk of
                                         the card's content.
-                                </Card.Text>
-                                    <Button variant="primary">Read More ... </Button>
-                                </Card.Body>
-                            </Card>
+                                        </div>
+                                        <div className="e-card-actions">
+                                            <button className="e-btn e-outline e-primary">
+                                                Read More
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <br/>
+                                <div className="e-card e-card-horizontal" style={{ width: `100%` }}>
+                                    <img src={masjidIcon} alt="Sample" style={{ height: `100%` }} />
+                                    <div className="e-card-stacked">
+                                        <div className="e-card-header">
+                                            <div className="e-card-header-caption">
+                                                <div className="e-card-header-title">Philips Trimmer</div>
+                                            </div>
+                                        </div>
+                                        <div className="e-card-content">
+                                        Some quick example text to build on the card title and make up the bulk of
+                                        the card's content.
+                                         </div>
+                                    </div>
+                                </div>
                         </Col>
                     </Row>
                 </Container>
             </section>
+            <section id ="Location">
+                <Row>
+                    <Col md={9}>
+                         <Map />
+                    </Col>
+                    <Col md={3}>
+                    <address style={{marginTop:"15rem"}}>
+                                    <strong>Masjid Abu Baker BOGOTA</strong><br/>
+                                    Street Name<br/>
+                                    <abbr title="Phone">P:</abbr> (999) 999-9999
+                    </address>
+                    </Col>
+                </Row>
+            </section>
+
             <section id="ContactUs">
                 <h1>Contact Us</h1>
                 <Row>
@@ -163,11 +164,7 @@ function Main() {
                     </div>
                     </Col>
                     <Col md={6}>
-                    <address>
-                                    <strong>Masjid Abu Baker BOGOTA</strong><br/>
-                                    Street Name<br/>
-                                    <abbr title="Phone">P:</abbr> (999) 999-9999
-                    </address>
+                    
                     <h3>Connect with us</h3>
                         <Row >
                             <Col md={6}>
@@ -186,6 +183,7 @@ function Main() {
                     </Col>
                 </Row>
             </section>
+            </Container>
         </div>
     )
 }

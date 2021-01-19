@@ -10,13 +10,15 @@ import Main from './Main/Main';
 
 function App() {
   return (
-    <Container >
-       <Header/>
-      <Main/>
-
+    <>
+    <React.StrictMode>
+        <Header/>
+        <Main/>
+      </React.StrictMode>
+      </>
       
         
-    </Container>
+    
    
   );
 }
