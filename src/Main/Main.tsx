@@ -102,7 +102,7 @@ function Main() {
                                     <div className="e-card-stacked">
                                         <div className="e-card-header">
                                             <div className="e-card-header-caption">
-                                                <div className="e-card-header-title">Philips Trimmer</div>
+                                                <div className="e-card-header-title">News</div>
                                             </div>
                                         </div>
                                         <div className="e-card-content">
