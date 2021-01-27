@@ -42,7 +42,7 @@ function Header(){
                 </Row>
                 </Container>
             </section>
-              <Navbar collapseOnSelect expand='sm' bg='dark' variant= 'dark'  className={navbarColor} >
+              <Navbar collapseOnSelect expand='sm' bg='dark' variant= 'light'  className={navbarColor} >
                 <Navbar.Brand href="#home">
                     <img src={String(logo)} alt=" " width={50} ></img>
                 </Navbar.Brand>
